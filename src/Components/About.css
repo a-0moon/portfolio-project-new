@@ -1,0 +1,306 @@
+body {
+
+    background-color: var(--body_background);
+}
+
+.about-container {
+    background-color: var(--body_background);
+    color: chocolate;
+    height: 100vh;
+    border: 2px solid chocolate;
+}
+
+
+.timeline-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    top: 9.5rem;
+    line-height: 2.5rem;
+
+}
+
+
+.achievements-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    right: 18rem;
+    top: -8rem;
+    line-height: 2.5rem;
+    font-size: 1rem;
+
+
+}
+
+
+h1 {
+
+    font-family: 'Pacifico', cursive;
+    margin-top: 30px;
+}
+
+
+.img {
+    position: relative;
+    top: -1rem;
+    object-fit: cover;
+    height: 50vh;
+    width: 450px;
+    float: left;
+    margin-left: 4rem;
+    border-radius: 5%;
+    transition: 2s;
+}
+
+.para {
+    position: relative;
+    top: 2rem;
+    line-height: 3;
+    word-spacing: 8px;
+    color: var(--body_color);
+
+    margin-right: 16rem;
+    font-size: 0.5;
+
+}
+
+.time {
+    font-size: large;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -1rem;
+    color: var(--body_color);
+    font-family: 'Pacifico', cursive;
+
+
+
+}
+
+
+
+
+@media only screen and (max-width:900px) {
+    .img {
+        display: block;
+        height: 20vh;
+        width: 350px;
+        margin-left: 0rem;
+
+    }
+
+    .para {
+        line-height: 2rem;
+        font-size: 1.5rem;
+        margin-right: 4rem;
+        padding-left: 2rem;
+    }
+
+    .achievements-container {
+        display: block;
+        position: relative;
+        top: 0rem;
+        right: 0rem;
+        font-size: medium;
+    }
+
+
+    .timeline-container {
+        display: none;
+
+    }
+}
+
+@media (min-width:470px) and (max-width: 645px) {
+
+    .para {
+        font-size: large;
+        margin-top: -1rem;
+    }
+
+    .achievements-container {
+        position: relative;
+        left: 0rem;
+        ;
+    }
+}
+
+
+@media(min-width: 468px) and (max-width:1400px) {
+
+    .img {
+        display: block;
+        height: 35vh;
+        width: 300px;
+
+
+    }
+
+    .para {
+        position: relative;
+        left: 1.7rem;
+    }
+
+
+    .achievements-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: medium;
+        margin-top: 6rem;
+        margin-left: 1rem;
+
+    }
+
+    .timeline-container {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width : 800px) and (max-width:1400px) {
+
+    .img {
+        height: 50vh;
+        width: 350px;
+        display: inline-block;
+    }
+
+    .para {
+
+        position: relative;
+        left: 2.5rem;
+        top: -1rem;
+        line-height: 3rem;
+    }
+
+    .achievements-container {
+        position: relative;
+        left: 0rem;
+        top: 0rem;
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: larger;
+    }
+
+    .timeline-container {
+        display: none;
+
+    }
+}
+
+
+@media(min-width : 900px) {
+    .achievements-container {
+        position: relative;
+        top: -8rem
+    }
+}
+
+
+@media (min-width : 1000px) and (max-width : 1350px) {
+
+    .achievements-container {
+        position: relative;
+        top: -5rem;
+    }
+}
+
+
+@media(min-width: 1350px) and (max-width:1450px) {
+    .timeline-container {
+        display: inline-block;
+        position: relative;
+        left: 57rem;
+        top: 2.5rem;
+        font-size: large;
+    }
+
+
+    .achievements-container {
+        position: relative;
+        right: 30rem;
+        top: -21rem;
+        font-size: large;
+    }
+
+    .about {
+        font-size: larger;
+    }
+
+    .img {
+        width: 500px;
+    }
+
+
+
+    .para {
+
+        font-size: 1.5rem;
+        margin-top: 10rem;
+    }
+}
+
+@media(min-width:1400px) and (max-width: 1520px) {
+
+    .para {
+        line-height: 3rem;
+        margin-top: 4rem;
+    }
+
+    .achievements-container {
+        position: relative;
+        top: -10rem;
+        left: 0rem
+    }
+
+    .timeline-container {
+        position: relative;
+        top: 7.5rem;
+        left: 8rem
+    }
+}
+
+
+@media (max-width: 486px) {
+    .timeline-container {
+        display: none;
+    }
+
+    .achievements-container {
+        display: none;
+    }
+
+    .img {
+        width: 380px;
+        padding-left: 1rem;
+
+    }
+
+    .para {
+        margin-left: -2rem;
+        font-size: x-large;
+        position: relative;
+        top: 7rem;
+        left: 2rem
+    }
+}
+
+
+@media (max-width:350px) {
+    .para {
+        margin-left: 1rem;
+    }
+}

@@ -1,0 +1,32 @@
+.App {
+    text-align: center;
+    height: 20vh;
+    color: black;
+
+
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    color: black;
+
+
+
+}
+
+.footer-page {
+
+    border-bottom: 2px solid chocolate;
+    padding-bottom: 3rem;
+}
+
+.footer__copyrights {
+    margin-bottom: 2rem;
+    color: grey;
+    text-align: center;
+    padding-top: 4rem;
+    font-size: 1.5rem;
+}

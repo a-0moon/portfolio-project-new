@@ -1,0 +1,151 @@
+.contact {
+    height: 60vh;
+}
+
+
+.contact-page {
+    border-top: 2px solid chocolate;
+    background-color: var(--body_background);
+}
+
+.contact-page h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.googlemap {
+
+    position: relative;
+    top: 6rem;
+
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.social a {
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffff;
+    background-color: chocolate;
+    transition: all 0.3s ease-in-out;
+    border: chocolate solid 2px;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+}
+
+.social a:hover {
+    background-color: #ffff;
+    color: chocolate;
+    border: chocolate solid 2px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    justify-self: center;
+    align-items: center;
+    display: inline-block;
+    position: relative;
+    left: 56rem;
+    padding-top: 8rem;
+}
+
+label {
+    color: var(--body_color);
+}
+
+input,
+textarea {
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: white;
+    border: 2px solid chocolate;
+    resize: none;
+}
+
+.new-btn {
+    background-color: chocolate;
+    font-weight: 10px;
+    font-family: cursive;
+    color: var(--body_color);
+    font-size: 1.5rem;
+    border: 2px solid chocolate;
+    margin-top: 1rem;
+    width: 200px;
+    height: 80px;
+
+    &:hover {
+        color: chocolate;
+        background-color: black;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 500px) {
+
+    .social {
+        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        margin-left: 6rem;
+        width: 200px;
+    }
+
+    .googlemap {
+
+        position: relative;
+        left: 0rem;
+        ;
+
+    }
+
+
+
+    form {
+        display: none;
+
+
+    }
+}
+
+
+
+@media(max-width: 330px) {
+    .social {
+        margin-left: 3rem;
+
+    }
+
+
+
+
+}
+
+
+
+
+
+@media (max-width:1300px) {
+    form {
+        display: relative;
+        left: 15rem
+    }
+
+}

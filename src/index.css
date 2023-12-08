@@ -1,0 +1,11 @@
+:root {
+  --body_background: black;
+  --body_color: burlywood;
+
+}
+
+[data-theme="light"] {
+  --body_background: burlywood;
+  --body_color: black;
+
+}
